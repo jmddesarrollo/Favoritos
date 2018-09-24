@@ -1,0 +1,11 @@
+<div>
+    <h1>{{titulo}}</h1>
+    <p [ngClass]="['bordeVerde', 'fondoAmarillo']">Cambiar color: <input type="text" (blur)="changeColor()" [(ngModel)]="color" /> </p>
+    <div [style.background] = "color" [ngClass]="{bordeVerde: favoritosVisibles == true, bordeNegro: !favoritosVisibles}">
+        <button (click)="showVisible()" *ngIf="favoritosVisibles == false">Mostrar lista</button>
+        <button (click)="hideVisible()" *ngIf="favoritosVisibles == true">Ocultar lista</button>
+        <ul id="favoritos" *ngIf="favoritosVisibles == true" >
+            <li *ngFor="let favorito of favoritos">{{favorito}}</li>
+        </ul>                 
+    </div>                                   
+</div>

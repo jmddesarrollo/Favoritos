@@ -1,0 +1,1 @@
+{"version":3,"file":"mock.peliculas.js","sourceRoot":"","sources":["mock.peliculas.ts"],"names":[],"mappings":";;AAAA,+CAA4C;AAE/B,QAAA,SAAS,GAAe;IACjC,IAAI,mBAAQ,CAAE,CAAC,EAAE,yBAAyB,EAAE,eAAe,EAAE,IAAI,CAAC;IAClE,IAAI,mBAAQ,CAAE,CAAC,EAAE,gBAAgB,EAAE,eAAe,EAAE,IAAI,CAAC;IACzD,IAAI,mBAAQ,CAAE,CAAC,EAAE,oBAAoB,EAAE,eAAe,EAAE,IAAI,CAAC;CAChE,CAAC"}
